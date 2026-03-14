@@ -1,0 +1,19 @@
+# Product repo (.git inside output/)
+# This repo may be public — secrets exclusions are critical
+
+# Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+credentials/
+
+# OS artifacts
+.DS_Store
+
+# Build artifacts (if code is ever added)
+node_modules/
+dist/
+build/
