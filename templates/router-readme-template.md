@@ -150,7 +150,7 @@ Anything prescribed by Archimedes conventions is pre-authorized. Do not pause to
 
 **Default to action (NACK, not ACK):** When Kurt makes a suggestion, discuss it (including pushback), then make the change. Use **NACK-based flow** — "I'll make these changes unless you tell me otherwise" — not **ACK-based flow** — "want me to do this?" NACK assumes action and only stops on objection. ACK assumes inaction and waits for permission. When the conversation's purpose is obvious (e.g., discussing roadmap additions), act on each item without reconfirming at all.
 
-**Terminal commands: always one copy-paste block.** Chain with `&&` within a repo, `;` between repos. Never split across multiple code fences.
+**Terminal commands: always one copy-paste block, always start with `cd`.** Every terminal block begins with `cd` to the Mac path (see Working Folder above) — Kurt may have closed terminal or be in a different directory. Chain with `&&` within a repo, `;` between repos. Never split across multiple code fences.
 
 **Don't narrate your plan — just do it.** Exception: before going autonomous in Design then Build, summarize the build plan.
 
